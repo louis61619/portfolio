@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import Github from '@/public/github.svg'
 import Demo from '@/public/demo.svg'
+import config from '../next.config'
 
 const LinkButton: React.FC<{ href: string; children: React.ReactNode }> = ({ href, children }) => {
   return (
@@ -16,7 +17,7 @@ export const Card: React.FC<{ title: string; description: string; labels: string
   return (
     <div className="transition duration-200 ease-in-out shadow-card rounded-md overflow-hidden bg-white flex flex-col shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]">
       <div className="transition duration-200 ease-in-out transform h-48 bg-cover bg-gray-200 overflow-hidden block">
-        <Image src={src} alt="" fill unoptimized />
+        <Image src={config.basePath ? `${config.basePath}/${src}` : src} alt="" fill />
       </div>
       <div className="p-6" style={{ flex: '1 1 0%' }}>
         <div className="mb-3">
