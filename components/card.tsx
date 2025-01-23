@@ -7,7 +7,7 @@ import config from '../next.config'
 
 const LinkButton: React.FC<{ href: string; children: React.ReactNode }> = ({ href, children }) => {
   return (
-    <Link href={href} className="transition duration-200 ease-in-out flex flex-row items-center hover:bg-black hover:text-white mr-4 bg-white py-2 px-3 rounded shadow-sm border border-solid border-gray-300">
+    <Link href={href} target="_blank" className="transition duration-200 ease-in-out flex flex-row items-center hover:bg-black hover:text-white mr-4 bg-white py-2 px-3 rounded shadow-sm border border-solid border-gray-300">
         {children}
       </Link>
   )
