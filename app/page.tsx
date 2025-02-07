@@ -8,7 +8,7 @@ const projects: Project[] = [
   {
     // 記得封裝一下，未來可以結合 chatgpt
     title: 'low code engine',
-    description: '簡易的拖拉生成頁面框架',
+    description: '簡單、直覺、可擴展的低程式碼核心元件',
     labels: ['Low code', 'React', 'Typescript'],
     demoLink: 'https://louis61619.github.io/low-code-engine',
     sourceLink: 'https://github.com/louis61619/low-code-engine',
