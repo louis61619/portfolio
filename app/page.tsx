@@ -6,6 +6,13 @@ type Project = React.ComponentProps<typeof Card>
 
 const projects: Project[] = [
   {
+    title: 'langchain RAG',
+    description: '練習使用 langchain 製作 RAG 應用',
+    labels: ['Langchain', 'RAG', 'LLM'],
+    sourceLink: 'https://github.com/louis61619/langchain-RAG',
+    src: '/image/langchain-RAG.png'
+  },
+  {
     // 記得封裝一下，未來可以結合 chatgpt
     title: 'low code engine',
     description: '簡單、直覺、可擴展的低程式碼核心元件',
