@@ -52,14 +52,14 @@ const projects: Project[] = [
     demoLink: 'https://louis61619.github.io/base-ui',
     src: '/image/base-ui.png'
   },
-  {
-    title: '學習筆記',
-    description: '這是一份有關於前端程式基礎的學習筆記，使用 Vuepress 搭建',
-    labels: ['JavaScript', 'Frontend', 'Vuepress'],
-    demoLink: 'https://louis61619.github.io/js-novel',
-    sourceLink: 'https://github.com/louis61619/js-novel',
-    src: '/image/js-novel.png'
-  },
+  // {
+  //   title: '學習筆記',
+  //   description: '這是一份有關於前端程式基礎的學習筆記，使用 Vuepress 搭建',
+  //   labels: ['JavaScript', 'Frontend', 'Vuepress'],
+  //   demoLink: 'https://louis61619.github.io/js-novel',
+  //   sourceLink: 'https://github.com/louis61619/js-novel',
+  //   src: '/image/js-novel.png'
+  // },
   {
     // 可以把 images 全部壓縮一遍，啟動略慢
     title: '旅遊官網',
