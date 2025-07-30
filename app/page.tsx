@@ -6,15 +6,23 @@ type Project = React.ComponentProps<typeof Card>
 
 const projects: Project[] = [
   {
-    title: 'langchain RAG',
-    description: '練習使用 langchain 製作 RAG 應用',
+    title: 'Form generator',
+    description: '結合 AI 構建可對話的表單生成器',
+    labels: ['LLM', 'AI', 'React', 'Typescript', 'Form generator'],
+    demoLink: 'https://form-generator-rouge-eight.vercel.app',
+    sourceLink: 'https://github.com/louis61619/form-generator',
+    src: '/image/form-generator.png',
+  },
+  {
+    title: 'Langchain RAG',
+    description: '如何使用 langchain 製作 RAG 應用',
     labels: ['Langchain', 'RAG', 'LLM'],
     sourceLink: 'https://github.com/louis61619/langchain-RAG',
     src: '/image/langchain-RAG.png'
   },
   {
     // 記得封裝一下，未來可以結合 chatgpt
-    title: 'low code engine',
+    title: 'Low-code engine',
     description: '簡單、直覺、可擴展的低程式碼核心元件',
     labels: ['Low code', 'React', 'Typescript'],
     demoLink: 'https://louis61619.github.io/low-code-engine',
@@ -30,7 +38,7 @@ const projects: Project[] = [
   //   src: '/image/low-code-engine.png'
   // },
   {
-    title: 'markdown resume',
+    title: 'Markdown resume',
     description: '使用 markdown 語法製作簡歷，整合 google drive api 進行儲存並能發布預覽',
     labels: ['Markdown', 'JavaScript', 'Editor'],
     demoLink: 'https://simple-resume-wine.vercel.app',
@@ -38,14 +46,14 @@ const projects: Project[] = [
     src: '/image/markdown-resume.png'
   },
   {
-    title: 'vue3 monorepo template',
+    title: 'Vue3 monorepo template',
     description: 'vue3 多項目集成模板，使用 lerna 進行管理',
     labels: ['Vue3', 'Monorepo', 'Typescript', 'Lerna'],
     sourceLink: 'https://github.com/louis61619/vue3-monorepo-template.git',
     src: '/image/vue3-monorepo-template.png'
   },
   {
-    title: 'base ui',
+    title: 'Base ui',
     description: '使用 storybook 展示製作的 ui 組件庫，發布到 npm 上並能夠在其他專案中使用',
     labels: ['React', 'Storybook', 'UI library', 'Typescript'],
     sourceLink: 'https://github.com/louis61619/base-ui',
