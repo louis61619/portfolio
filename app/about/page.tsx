@@ -11,7 +11,7 @@ export default function Home() {
       <article className='px-6 sm:px-12 py-6'>
         <div className='mb-6'>
           <p className='font-light'>
-            Hi, I'm Louis. I'm a software engineer
+            我是一名專注於網頁開發的工程師，熱衷於探索新技術並持續提升自己的能力。熟練掌握前端技術的同時，也對後端、雲服務、資料庫有一定了解，能夠獨立或與團隊合作開發高品質的 Web 應用。
           </p>
         </div>
         <ul className='flex flex-row flex-wrap '>
